@@ -7,34 +7,38 @@
      applicable licenses.-->
 <!-- (C) Copyright IBM Corporation 2001, 2005. All Rights Reserved.
  *-->
-<task id="changeoil" xml:lang="en-us">
-  <title>Changing the oil in your car</title>
-  <shortdesc>Once every 6000 kilometers or three months, change the oil in
-your car.</shortdesc>
+<task id="recording_signs" xml:lang="en-us">
+  <title>Recording the Conditions of Trail Signs</title>
+  <shortdesc>Steps for safely checking the conditions of trail signs for the City of Northampton./shortdesc>
   <taskbody>
     <context>
-      <p>Changing the oil regularly will help keep the engine in good condition.  Do it every three
-        months.</p>
+      <p>About every two years, city employees and volunteers visit each of the 40 trail signs to record their conditions.
+        Here are the steps for performing the task safely.
+      </p>
     </context>
     <steps>
-      <stepsection>To change the oil:</stepsection>
+      <stepsection>Recording the condition of a sign</stepsection>
       <step>
-        <cmd>Remove the old oil filter.</cmd>
+        <cmd>Enter the GPS coordinates of the sign, which is be on the official document, into your GPS device.</cmd>
       </step>
       <step>
-        <cmd>Drain the old oil.</cmd>
+        <cmd>Drive or walk to the sign location. Make sure your park your vehicle safely off the road. Turn on blinkers if necessary.</cmd>
       </step>
       <step>
-        <cmd>Install a new oil filter and gasket.</cmd>
+        <cmd>Locate the sign. Check for letter visibility, paint wear, rot, moss in the front and back of the sign. 
+          Also check that the posts are securely in the ground.</cmd>
       </step>
       <step>
-        <cmd>Add new oil to the engine.</cmd>
+        <cmd>Note any issues in the area surrounding the signs such as flooding and trash.</cmd>
       </step>
       <step>
-        <cmd>Check the air filter and replace or clean it.</cmd>
+        <cmd>Write down the condition of the sign in the provided sheet.</cmd>
       </step>
       <step>
-        <cmd>Top up the windshield washer fluid.</cmd>
+        <cmd>Take a picture of the sign from the front. If your camera allows for it, write the sign's ID number on the photo.</cmd>
+      </step>
+      <step>
+        <cmd>Walk back to your vehicle while making sure you are safely away from moving vehicles.</cmd>
       </step>
     </steps>
   </taskbody>
