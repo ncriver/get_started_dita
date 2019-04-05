@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="dita-ot.sourceforge.net/ns/201007/dita-ot" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrc="map:1;3:6" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/nathan_map.ditamap"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">Conservation Area Signs</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/title ">Conservation Area Signs</title>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="sample_concept"><resourceid appid="sample_concept" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Introduction to Northampton Concervation Area Signs</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">A brief description of the official wooden signs for marking Northampton conservation areas.</shortdesc></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_2" type="task"><topicmeta class="- map/topicmeta " data-topic-id="recording_signs"><resourceid appid="recording_signs" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Recording the Conditions of Trail Signs</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Steps for safely checking the conditions of trail signs for the City of Northampton.</shortdesc></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_3" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="troubleshooting"><resourceid appid="troubleshooting" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Table of Conservation Area Signs</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Has a table containing the ID number, location, and other information about conservation area signs.</shortdesc></topicmeta></topicref>
+</opentopic:map><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_1" nd:nd-id="sample_concept" oid="sample_concept" xml:lang="en-US">
+  <title class="- topic/title ">Introduction to Northampton Concervation Area Signs</title>
+  <shortdesc class="- topic/shortdesc ">A brief description of the official wooden signs for marking Northampton conservation areas.</shortdesc>
+  <conbody class="- topic/body  concept/conbody ">
+    <p class="- topic/p ">The Northampton conservation areas has wooden signs to help hikers know what area they are on. The signs are wooden boards
+         with grooved letters usually mounted on two wooden posts. In some cases, the signs are mounted on trail fenses. Commons 
+         features on signs include grooved letters that are wear-resistant and circular indentations for logo plates representing
+         sponsoring organizations.</p>
+    <p class="- topic/p ">As of January 2019, the signs have had two major versions. The very first version used pressure-treated boards
+       usually painted in red. After about a decade of wear-and-tear, the paint on many of the signs started to peel, and some
+       of the pressure-treated lumber started to rot.</p>
+    <p class="- topic/p ">To reduce future maintenance costs, the planning office started replacing severely damaged version one signs with version
+         two signs made of locust boards with more durable absorbent finish on them.</p>
+    <p class="- topic/p ">Version one and version two signs has two choices of hardware for mounting them onto posts. 
+         The simpler and more common choice involves drilling holes directly through the sign face to mount the sign onto supporting ports
+         using stainless nuts and bolts. While simple, this choice is not very aesthetically pleaning and can interfere with the placement
+         of letters and logo plates.</p>
+    <p class="- topic/p ">The more complex choice of hardware uses two metal brackets that are bent at both ends. 
+       The brackets are vertically mounted first to the posts with bolts.
+       The brackets then surround the edges of the sign and then mounted with bolts. Since the bolts are drilled into the edges of the sign
+       rather than the face, it does not obstruct the face. The better appearance comes with the cost of a significantly longer installtion time.</p>
+  </conbody>
+</concept><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic task/task " id="unique_2" nd:nd-id="recording_signs" oid="recording_signs" xml:lang="en-us">
+  <title class="- topic/title ">Recording the Conditions of Trail Signs</title>
+  <shortdesc class="- topic/shortdesc ">Steps for safely checking the conditions of trail signs for the City of Northampton.</shortdesc>
+  <taskbody class="- topic/body task/taskbody ">
+    <context class="- topic/section task/context ">
+      <p class="- topic/p ">About every two years, city employees and volunteers visit each of the 40 trail signs to record their conditions.
+        Here are the steps for performing the task safely.
+      </p>
+    </context>
+    <steps class="- topic/ol task/steps ">
+      <stepsection class="- topic/li task/stepsection ">Recording the condition of a sign</stepsection>
+      <step class="- topic/li task/step ">
+        <cmd class="- topic/ph task/cmd ">Enter the GPS coordinates of the sign, which is be on the official document, into your GPS device.</cmd>
+      </step>
+      <step class="- topic/li task/step ">
+        <cmd class="- topic/ph task/cmd ">Drive or walk to the sign location. Make sure your park your vehicle safely off the road. Turn on blinkers if necessary.</cmd>
+      </step>
+      <step class="- topic/li task/step ">
+        <cmd class="- topic/ph task/cmd ">Locate the sign. Check for letter visibility, paint wear, rot, moss in the front and back of the sign. 
+          Also check that the posts are securely in the ground.</cmd>
+      </step>
+      <step class="- topic/li task/step ">
+        <cmd class="- topic/ph task/cmd ">Note any issues in the area surrounding the signs such as flooding and trash.</cmd>
+      </step>
+      <step class="- topic/li task/step ">
+        <cmd class="- topic/ph task/cmd ">Write down the condition of the sign in the provided sheet.</cmd>
+      </step>
+      <step class="- topic/li task/step ">
+        <cmd class="- topic/ph task/cmd ">Take a picture of the sign from the front. If your camera allows for it, write the sign's ID number on the photo.</cmd>
+      </step>
+      <step class="- topic/li task/step ">
+        <cmd class="- topic/ph task/cmd ">Walk back to your vehicle while making sure you are safely away from moving vehicles.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links class="- topic/related-links ">
+    <link class="- topic/link " format="dita" href="#unique_1" type="concept"><?ditaot gentext?><linktext class="- topic/linktext ">Introduction to Northampton Concervation Area Signs</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">A brief description of the official wooden signs for marking Northampton conservation areas.</desc></link>
+    <link class="- topic/link " format="dita" href="#unique_3" type="reference"><?ditaot gentext?><linktext class="- topic/linktext ">Table of Conservation Area Signs</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Has a table containing the ID number, location, and other information about conservation area signs.</desc></link>
+  </related-links>
+</task><reference xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic       reference/reference " id="unique_3" nd:nd-id="troubleshooting" oid="troubleshooting" xml:lang="en-US">
+  <title class="- topic/title ">Table of Conservation Area Signs</title>
+  <shortdesc class="- topic/shortdesc ">Has a table containing the ID number, location, and other information about conservation area signs.</shortdesc>
+  <refbody class="- topic/body        reference/refbody ">
+    <section class="- topic/section " id="unique_3_Connect_42_introduction" nd:nd-id="introduction">
+      <title class="- topic/title ">Using Sign Data</title>
+      <p class="- topic/p ">Please be aware of the instructions before using the sign data.</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Do not publicize the sign data to control the number of visitors.</li>
+        <li class="- topic/li ">Note that the GPS coordinates refer to the trailhead, not the parking area. You may have to park
+          some distance away from the trailhead.</li>
+        <li class="- topic/li ">Please update any incorrect information.</li>
+      </ol>
+    </section>
+    <section class="- topic/section " id="unique_3_Connect_42_sign-table" nd:nd-id="sign-table">
+    <table class="- topic/table " id="d29e187">
+    <title class="- topic/title ">Conservation Area Signs</title>
+      <tgroup class="- topic/tgroup " cols="4">
+       <colspec class="- topic/colspec " colname="col1" colnum="1"/><colspec class="- topic/colspec " colname="col2" colnum="2"/><colspec class="- topic/colspec " colname="col3" colnum="3"/><colspec class="- topic/colspec " colname="col4" colnum="4"/><thead class="- topic/thead ">
+        <row class="- topic/row ">
+          <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;28:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">Sign ID number</entry>
+          <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;29:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">GPS Coordinates</entry>
+          <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="1" xtrc="entry:3;30:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">Street location</entry>
+          <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="1" xtrc="entry:4;31:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">Description</entry>
+        </row>
+       </thead>
+       <tbody class="- topic/tbody ">
+        <row class="- topic/row ">
+          <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:5;36:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">22</entry>
+          <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:6;37:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">xxx.xxx,yyy.yyy</entry>
+          <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="2" xtrc="entry:7;38:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">Sylvester Rd</entry>
+          <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="2" xtrc="entry:8;39:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">A popular and lengthy trail spanning 2 miles.</entry>
+        </row>
+
+        <row class="- topic/row ">
+          <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:9;43:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">13</entry>
+          <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:10;44:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">xxx.xxx,yyy.yyy</entry>
+          <entry class="- topic/entry " colname="col3" dita-ot:x="3" dita-ot:y="3" xtrc="entry:11;45:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">777 Maple Farm Rd.</entry>
+          <entry class="- topic/entry " colname="col4" dita-ot:x="4" dita-ot:y="3" xtrc="entry:12;46:18" xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/reference-example.xml">A small trail next to a private house.</entry>
+        </row>
+       </tbody>
+      </tgroup>
+     </table>
+    </section>
+  </refbody>
+</reference></map>

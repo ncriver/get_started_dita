@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<css:root xmlns:chfox="http://www.oxygenxml.com/chemistry/extensions/fop"
+    xmlns:css="http://www.w3.org/1998/CSS" xmlns:dita-ot="dita-ot" xmlns:ditaarch="ditaarch"
+    xmlns:nd="nd" xmlns:oxy="oxy">
+    <css:pages>
+        <css:page>
+            <css:footnote>
+                <css:property name="border-top-style" value="solid"/>
+                <css:property name="border-top-color" value="black"/>
+                <css:property name="border-top-width" value="thin"/>
+                <css:property name="padding-top" value="8pt"/>
+            </css:footnote>
+        </css:page>
+        <css:page>
+            <css:property name="padding-top" value="0.2em"/>
+            <css:property name="padding-bottom" value="0.2em"/>
+            <css:property name="width" value="8.5in"/>
+            <css:property name="height" value="11.0in"/>
+            <css:property name="margin-top" value="1in"/>
+            <css:property name="margin-right" value="1in"/>
+            <css:property name="margin-left" value="1in"/>
+            <css:property name="margin-bottom" value="1in"/>
+        </css:page>
+        <css:page>
+            <css:property name="font-size" value="8pt"/>
+        </css:page>
+        <css:page pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+            </css:top-left>
+        </css:page>
+        <css:page pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+            </css:top-right>
+        </css:page>
+        <css:page pseudo="blank ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="front-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="table-of-contents">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+        </css:page>
+        <css:page name="index">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content">
+                    <css:counter format="lower-alpha" name="page"/>
+                </css:property>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="index">
+            <css:property name="column-count" value="2"/>
+            <css:property name="column-fill" value="auto"/>
+        </css:page>
+        <css:page name="chapter"/>
+        <css:page name="matter-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="portrait-page">
+            <css:property name="orientation" value="portrait"/>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+            </css:top-right>
+        </css:page>
+        <css:page name="landscape-page" pseudo="right ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-bottom>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="right"/>
+            </css:right-bottom>
+        </css:page>
+        <css:page name="landscape-page" pseudo="left ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-top>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="left"/>
+            </css:right-top>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="chapter" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="chapter" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+    </css:pages>
+    <css:page-sequence initial-page-number="1" page="front-page">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/nathan_map.ditamap">
+            <head css:border-bottom-color="white" css:border-bottom-style="solid"
+                css:border-bottom-width="1pt" css:border-left-color="white"
+                css:border-left-style="solid" css:border-left-width="1pt"
+                css:border-right-color="white" css:border-right-style="solid"
+                css:border-right-width="1pt" css:border-top-color="white"
+                css:border-top-style="solid" css:border-top-width="1pt" css:display="none"
+                css:padding-bottom="1em" css:padding-left="1em" css:padding-right="1em"
+                css:padding-top="1em">
+                <meta charset="UTF-8" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="copyright"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"
+                    name="DC.rights.owner"/>
+                <meta content="map" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.type"/>
+                <meta content="HTML5" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.format"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css"
+                    rel="stylesheet" type="text/css"/>
+                <title css:border-bottom-color="rgb(0 , 68 , 119)" css:border-bottom-style="solid"
+                    css:border-bottom-width="2px" css:color="rgb(0 , 34 , 68)" css:display="none"
+                    css:font-size="2.2em" css:font-weight="bold" css:margin-bottom="0.5em"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">
+                    <css:oxy-pdf-meta-title>
+                        <css:content source="text"/>
+                    </css:oxy-pdf-meta-title>
+                </title>
+            </head>
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <css:string-set name="toc-header">
+                                    <css:text>Contents</css:text>
+                                </css:string-set>
+                                <div class="- front-page/front-page front-page" css:display="block">
+                                    <div class="- front-page/front-page-title front-page-title"
+                                        css:display="block"
+                                        css:font-family="Arial, helvetica, sans-serif"
+                                        css:font-size="2em" css:font-weight="bold"
+                                        css:margin-top="3in" css:text-align="center">
+                                        <div class="- topic/title title" css:bookmark-level="1"
+                                            css:display="block" css:page-break-after="avoid"
+                                                ><css:string-set name="maptitle"><css:content
+                                                  source="text"
+                                                  /></css:string-set><css:bookmark-label><css:content
+                                                  source="before"/><css:content source="text"
+                                                /></css:bookmark-label><css:oxy-pdf-meta-title><css:content
+                                                  source="text"
+                                            /></css:oxy-pdf-meta-title>Conservation Area Signs</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence page="table-of-contents">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/nathan_map.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <div class="- toc/toc toc" css:display="block">
+                                    <div class="- toc/title title" css:bookmark-level="1"
+                                        css:display="block" css:font-size="2em"
+                                        css:margin-bottom="1em" empty="true">
+                                        <css:before css:display="inline">
+                                            <css:text>Contents</css:text>
+                                        </css:before>
+                                        <css:bookmark-label>
+                                            <css:content source="before"/>
+                                        </css:bookmark-label>
+                                    </div>
+                                    <div class="- topic/title title" css:display="none"
+                                        css:page-break-after="avoid">Conservation Area Signs</div>
+                                    <div class="- map/topicref topicref" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_1"
+                                        is-chapter="true" type="concept">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            data-topic-id="sample_concept">
+                                            <css:before css:display="inline"/>
+                                            <div appid="sample_concept"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="block" css:link="#unique_1"
+                                                css:text-align-last="justify" href="#unique_1"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_1"><css:text>Chapter
+                                                  </css:text><css:counter name="toc-chapter"
+                                                  value="1"/><css:text>.
+                                                </css:text></css:before>Introduction to Northampton
+                                                Concervation Area Signs<css:after
+                                                  css:display="inline" css:link="#unique_1"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_1"/></css:after></div>
+                                            <div class="- map/shortdesc shortdesc"
+                                                css:display="none">A brief description of the
+                                                official wooden signs for marking Northampton
+                                                conservation areas.</div>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_2"
+                                        is-chapter="true" type="task">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            data-topic-id="recording_signs">
+                                            <css:before css:display="inline"/>
+                                            <div appid="recording_signs"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="block" css:link="#unique_2"
+                                                css:text-align-last="justify" href="#unique_2"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_2"><css:text>Chapter
+                                                  </css:text><css:counter name="toc-chapter"
+                                                  value="2"/><css:text>.
+                                                </css:text></css:before>Recording the Conditions of
+                                                Trail Signs<css:after css:display="inline"
+                                                  css:link="#unique_2"><css:leader pattern="."
+                                                  /><css:target-counter url-fragment="unique_2"
+                                                  /></css:after></div>
+                                            <div class="- map/shortdesc shortdesc"
+                                                css:display="none">Steps for safely checking the
+                                                conditions of trail signs for the City of
+                                                Northampton.</div>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_3"
+                                        is-chapter="true" type="reference">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            data-topic-id="troubleshooting">
+                                            <css:before css:display="inline"/>
+                                            <div appid="troubleshooting"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="block" css:link="#unique_3"
+                                                css:text-align-last="justify" href="#unique_3"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_3"><css:text>Chapter
+                                                  </css:text><css:counter name="toc-chapter"
+                                                  value="3"/><css:text>.
+                                                </css:text></css:before>Table of Conservation Area
+                                                  Signs<css:after css:display="inline"
+                                                  css:link="#unique_3"><css:leader pattern="."
+                                                  /><css:target-counter url-fragment="unique_3"
+                                                  /></css:after></div>
+                                            <div class="- map/shortdesc shortdesc"
+                                                css:display="none">Has a table containing the ID
+                                                number, location, and other information about
+                                                conservation area signs.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" initial-page-number="1"
+        page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/nathan_map.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <article aria-labelledby="ariaid-title1" break-before="true"
+                                    class="- topic/topic concept/concept topic concept nested0"
+                                    css:counter-reset="page 1" css:display="block"
+                                    css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_1"
+                                    is-chapter="true" lang="en-US" nd:nd-id="sample_concept"
+                                    oid="sample_concept" oxy:topicref-class="- map/topicref "
+                                    xml:lang="en-US">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="2em" css:margin-bottom="1em"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:page-break-after="avoid"
+                                        id="ariaid-title1"><css:string-set name="chaptertitle"
+                                                ><css:text> | </css:text><css:counter name="chapter"
+                                                value="1"/><css:text> - </css:text><css:content
+                                                source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:before css:display="inline"
+                                                ><css:text>Chapter </css:text><css:counter
+                                                name="chapter" value="1"/><css:text>.
+                                            </css:text></css:before>Introduction to Northampton
+                                        Concervation Area Signs</h1>
+                                    <div class="- topic/body concept/conbody body conbody"
+                                        css:display="block" css:margin-bottom="0"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em">A brief
+                                            description of the official wooden signs for marking
+                                            Northampton conservation areas.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">The
+                                            Northampton conservation areas has wooden signs to help
+                                            hikers know what area they are on. The signs are wooden
+                                            boards with grooved letters usually mounted on two
+                                            wooden posts. In some cases, the signs are mounted on
+                                            trail fenses. Commons features on signs include grooved
+                                            letters that are wear-resistant and circular
+                                            indentations for logo plates representing sponsoring
+                                            organizations.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">As of January
+                                            2019, the signs have had two major versions. The very
+                                            first version used pressure-treated boards usually
+                                            painted in red. After about a decade of wear-and-tear,
+                                            the paint on many of the signs started to peel, and some
+                                            of the pressure-treated lumber started to rot.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">To reduce
+                                            future maintenance costs, the planning office started
+                                            replacing severely damaged version one signs with
+                                            version two signs made of locust boards with more
+                                            durable absorbent finish on them.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">Version one
+                                            and version two signs has two choices of hardware for
+                                            mounting them onto posts. The simpler and more common
+                                            choice involves drilling holes directly through the sign
+                                            face to mount the sign onto supporting ports using
+                                            stainless nuts and bolts. While simple, this choice is
+                                            not very aesthetically pleaning and can interfere with
+                                            the placement of letters and logo plates.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">The more
+                                            complex choice of hardware uses two metal brackets that
+                                            are bent at both ends. The brackets are vertically
+                                            mounted first to the posts with bolts. The brackets then
+                                            surround the edges of the sign and then mounted with
+                                            bolts. Since the bolts are drilled into the edges of the
+                                            sign rather than the face, it does not obstruct the
+                                            face. The better appearance comes with the cost of a
+                                            significantly longer installtion time.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/nathan_map.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <article aria-labelledby="ariaid-title2" break-before="true"
+                                    class="- topic/topic task/task topic task nested0"
+                                    css:display="block" css:margin-top="1em"
+                                    css:oxy-pdf-tag-type="Sect" id="unique_2" is-chapter="true"
+                                    lang="en-us" nd:nd-id="recording_signs" oid="recording_signs"
+                                    oxy:topicref-class="- map/topicref " xml:lang="en-us">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="2em" css:margin-bottom="1em"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:page-break-after="avoid"
+                                        id="ariaid-title2"><css:string-set name="chaptertitle"
+                                                ><css:text> | </css:text><css:counter name="chapter"
+                                                value="2"/><css:text> - </css:text><css:content
+                                                source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:before css:display="inline"
+                                                ><css:text>Chapter </css:text><css:counter
+                                                name="chapter" value="2"/><css:text>.
+                                            </css:text></css:before>Recording the Conditions of
+                                        Trail Signs</h1>
+                                    <div class="- topic/body task/taskbody body taskbody"
+                                        css:display="block" css:margin-bottom="0"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em">Steps for
+                                            safely checking the conditions of trail signs for the
+                                            City of Northampton.</p>
+                                        <section
+                                            class="- topic/section task/context section context"
+                                            css:display="block" css:margin-bottom="1em"
+                                            css:margin-top="1em" css:oxy-pdf-tag-type="Sect">
+                                            <p class="- topic/p p" css:display="block"
+                                                css:margin-bottom="0.5em" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1em">About
+                                                every two years, city employees and volunteers visit
+                                                each of the 40 trail signs to record their
+                                                conditions. Here are the steps for performing the
+                                                task safely. </p>
+                                        </section>
+                                        <div class="- topic/li task/stepsection li stepsection"
+                                            css:display="block">Recording the condition of a
+                                            sign</div>
+                                        <ol class="- topic/ol task/steps ol steps"
+                                            css:display="block" css:list-style-type="decimal"
+                                            css:margin-bottom="1.33em" css:margin-top="1.33em">
+                                            <li class="- topic/li task/step li step"
+                                                css:display="list-item" css:margin-left="2em">
+                                                <span class="- topic/ph task/cmd ph cmd"
+                                                  css:display="inline">Enter the GPS coordinates of
+                                                  the sign, which is be on the official document,
+                                                  into your GPS device.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step"
+                                                css:display="list-item" css:margin-left="2em">
+                                                <span class="- topic/ph task/cmd ph cmd"
+                                                  css:display="inline">Drive or walk to the sign
+                                                  location. Make sure your park your vehicle safely
+                                                  off the road. Turn on blinkers if
+                                                  necessary.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step"
+                                                css:display="list-item" css:margin-left="2em">
+                                                <span class="- topic/ph task/cmd ph cmd"
+                                                  css:display="inline">Locate the sign. Check for
+                                                  letter visibility, paint wear, rot, moss in the
+                                                  front and back of the sign. Also check that the
+                                                  posts are securely in the ground.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step"
+                                                css:display="list-item" css:margin-left="2em">
+                                                <span class="- topic/ph task/cmd ph cmd"
+                                                  css:display="inline">Note any issues in the area
+                                                  surrounding the signs such as flooding and
+                                                  trash.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step"
+                                                css:display="list-item" css:margin-left="2em">
+                                                <span class="- topic/ph task/cmd ph cmd"
+                                                  css:display="inline">Write down the condition of
+                                                  the sign in the provided sheet.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step"
+                                                css:display="list-item" css:margin-left="2em">
+                                                <span class="- topic/ph task/cmd ph cmd"
+                                                  css:display="inline">Take a picture of the sign
+                                                  from the front. If your camera allows for it,
+                                                  write the sign's ID number on the photo.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step"
+                                                css:display="list-item" css:margin-left="2em">
+                                                <span class="- topic/ph task/cmd ph cmd"
+                                                  css:display="inline">Walk back to your vehicle
+                                                  while making sure you are safely away from moving
+                                                  vehicles.</span>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <div class="wh_related_links" css:display="block">
+                                        <nav class="- topic/related-links related-links"
+                                            css:display="block" role="navigation">
+                                            <div
+                                                class="- topic/linklist linklist relinfo relconcepts"
+                                                css:display="block" css:margin-bottom="1em"
+                                                css:margin-top="1em"
+                                                outputclass="relinfo relconcepts">
+                                                <strong css:display="inline" css:font-weight="bold"
+                                                  >Related concepts</strong>
+                                                <br css:display="block">
+                                                  <css:after css:display="inline">
+                                                  <css:text/>
+                                                  </css:after>
+                                                </br>
+                                                <ul class="linklist" css:display="block"
+                                                  css:list-style-type="disc" css:margin-bottom="1em"
+                                                  css:margin-top="1.33em">
+                                                  <li class="linklist" css:display="list-item"
+                                                  css:margin-bottom="1em" css:margin-left="2em">
+                                                  <a class="- topic/link link" css:color="blue"
+                                                  css:display="inline" css:link="#unique_1"
+                                                  css:text-decoration="underline" format="dita"
+                                                  href="#unique_1"
+                                                  title="A brief description of the official wooden signs for marking Northampton conservation areas."
+                                                  type="concept">Introduction to Northampton
+                                                  Concervation Area Signs<css:after
+                                                  css:display="inline" css:font-style="italic"
+                                                  css:link="#unique_1"
+                                                  css:text-decoration="underline"><css:text> (page
+                                                  </css:text><css:target-counter
+                                                  url-fragment="unique_1"
+                                                  /><css:text>)</css:text></css:after></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="- topic/linklist linklist relinfo relref"
+                                                css:display="block" css:margin-bottom="1em"
+                                                css:margin-top="1em" outputclass="relinfo relref">
+                                                <strong css:display="inline" css:font-weight="bold"
+                                                  >Related reference</strong>
+                                                <br css:display="block">
+                                                  <css:after css:display="inline">
+                                                  <css:text/>
+                                                  </css:after>
+                                                </br>
+                                                <ul class="linklist" css:display="block"
+                                                  css:list-style-type="disc" css:margin-bottom="1em"
+                                                  css:margin-top="1.33em">
+                                                  <li class="linklist" css:display="list-item"
+                                                  css:margin-bottom="1em" css:margin-left="2em">
+                                                  <a class="- topic/link link" css:color="blue"
+                                                  css:display="inline" css:link="#unique_3"
+                                                  css:text-decoration="underline" format="dita"
+                                                  href="#unique_3"
+                                                  title="Has a table containing the ID number, location, and other information about conservation area signs."
+                                                  type="reference">Table of Conservation Area
+                                                  Signs<css:after css:display="inline"
+                                                  css:font-style="italic" css:link="#unique_3"
+                                                  css:text-decoration="underline"><css:text> (page
+                                                  </css:text><css:target-counter
+                                                  url-fragment="unique_3"
+                                                  /><css:text>)</css:text></css:after></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/get_started_dita/nathan_map.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <article aria-labelledby="ariaid-title3" break-before="true"
+                                    class="- topic/topic reference/reference topic reference nested0"
+                                    css:display="block" css:margin-top="1em"
+                                    css:oxy-pdf-tag-type="Sect" id="unique_3" is-chapter="true"
+                                    lang="en-US" nd:nd-id="troubleshooting" oid="troubleshooting"
+                                    oxy:topicref-class="- map/topicref " xml:lang="en-US">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="2em" css:margin-bottom="1em"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:page-break-after="avoid"
+                                        id="ariaid-title3"><css:string-set name="chaptertitle"
+                                                ><css:text> | </css:text><css:counter name="chapter"
+                                                value="3"/><css:text> - </css:text><css:content
+                                                source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:before css:display="inline"
+                                                ><css:text>Chapter </css:text><css:counter
+                                                name="chapter" value="3"/><css:text>.
+                                            </css:text></css:before>Table of Conservation Area
+                                        Signs</h1>
+                                    <div class="- topic/body reference/refbody body refbody"
+                                        css:display="block" css:margin-bottom="0"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em">Has a table
+                                            containing the ID number, location, and other
+                                            information about conservation area signs.</p>
+                                        <section class="- topic/section section" css:display="block"
+                                            css:margin-bottom="1em" css:margin-top="1em"
+                                            css:oxy-pdf-tag-type="Sect"
+                                            id="unique_3_Connect_42_introduction"
+                                            nd:nd-id="introduction">
+                                            <h2 class="- topic/title title sectiontitle"
+                                                css:bookmark-level="2" css:display="block"
+                                                css:font-size="1.17em" css:font-weight="bold"
+                                                css:margin-bottom="0" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1em"
+                                                css:oxy-pdf-tag-type="H2"
+                                                css:page-break-after="avoid"
+                                                  ><css:bookmark-label><css:content source="text"
+                                                  /></css:bookmark-label>Using Sign Data</h2>
+                                            <p class="- topic/p p" css:display="block"
+                                                css:margin-bottom="0.5em" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1em">Please be
+                                                aware of the instructions before using the sign
+                                                data.</p>
+                                            <ol class="- topic/ol ol" css:display="block"
+                                                css:list-style-type="decimal"
+                                                css:margin-bottom="1.33em" css:margin-top="1.33em">
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em">Do not publicize the sign
+                                                  data to control the number of visitors.</li>
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em">Note that the GPS
+                                                  coordinates refer to the trailhead, not the
+                                                  parking area. You may have to park some distance
+                                                  away from the trailhead.</li>
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em">Please update any incorrect
+                                                  information.</li>
+                                            </ol>
+                                        </section>
+                                        <section class="- topic/section section" css:display="block"
+                                            css:margin-bottom="1em" css:margin-top="1em"
+                                            css:oxy-pdf-tag-type="Sect"
+                                            id="unique_3_Connect_42_sign-table"
+                                            nd:nd-id="sign-table">
+                                            <table class="- topic/table table"
+                                                css:border-collapse="collapse" css:display="table"
+                                                css:table-layout="auto" id="d29e187">
+                                                <caption css:display="table-caption"
+                                                  css:font-weight="bold" css:margin-top="0.5em"
+                                                  css:page-break-after="avoid" css:text-align="left">
+                                                  <span class="table--title-label"
+                                                  css:display="inline">Table 1. </span>
+                                                  <span class="- topic/title title"
+                                                  css:display="inline" css:page-break-after="avoid"
+                                                  >Conservation Area Signs</span>
+                                                </caption>
+                                                <colgroup css:display="table-column-group">
+                                                  <col css:display="table-column"/>
+                                                  <col css:display="table-column"/>
+                                                  <col css:display="table-column"/>
+                                                  <col css:display="table-column"/>
+                                                </colgroup>
+                                                <thead class="- topic/thead thead"
+                                                  css:display="table-header-group"
+                                                  css:font-weight="bold" css:text-align="center">
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <th
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col1"
+                                                  css:display="table-cell" css:table-column="0"
+                                                  css:table-row="0" dita-ot:x="1" dita-ot:y="1"
+                                                  id="unique_3__d29e187__entry__1">Sign ID
+                                                  number</th>
+                                                  <th
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col2"
+                                                  css:display="table-cell" css:table-column="1"
+                                                  css:table-row="0" dita-ot:x="2" dita-ot:y="1"
+                                                  id="unique_3__d29e187__entry__2">GPS
+                                                  Coordinates</th>
+                                                  <th
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col3"
+                                                  css:display="table-cell" css:table-column="2"
+                                                  css:table-row="0" dita-ot:x="3" dita-ot:y="1"
+                                                  id="unique_3__d29e187__entry__3">Street
+                                                  location</th>
+                                                  <th
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col4"
+                                                  css:display="table-cell" css:table-column="3"
+                                                  css:table-row="0" dita-ot:x="4" dita-ot:y="1"
+                                                  id="unique_3__d29e187__entry__4">Description</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody class="- topic/tbody tbody"
+                                                  css:display="table-row-group">
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col1"
+                                                  css:display="table-cell" css:table-column="0"
+                                                  css:table-row="1" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="2"
+                                                  headers="unique_3__d29e187__entry__1 ">22</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col2"
+                                                  css:display="table-cell" css:table-column="1"
+                                                  css:table-row="1" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="2"
+                                                  headers="unique_3__d29e187__entry__2 "
+                                                  >xxx.xxx,yyy.yyy</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col3"
+                                                  css:display="table-cell" css:table-column="2"
+                                                  css:table-row="1" css:vertical-align="top"
+                                                  dita-ot:x="3" dita-ot:y="2"
+                                                  headers="unique_3__d29e187__entry__3 ">Sylvester
+                                                  Rd</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col4"
+                                                  css:display="table-cell" css:table-column="3"
+                                                  css:table-row="1" css:vertical-align="top"
+                                                  dita-ot:x="4" dita-ot:y="2"
+                                                  headers="unique_3__d29e187__entry__4 ">A popular
+                                                  and lengthy trail spanning 2 miles.</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col1"
+                                                  css:display="table-cell" css:table-column="0"
+                                                  css:table-row="2" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="3"
+                                                  headers="unique_3__d29e187__entry__1 ">13</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col2"
+                                                  css:display="table-cell" css:table-column="1"
+                                                  css:table-row="2" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="3"
+                                                  headers="unique_3__d29e187__entry__2 "
+                                                  >xxx.xxx,yyy.yyy</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col3"
+                                                  css:display="table-cell" css:table-column="2"
+                                                  css:table-row="2" css:vertical-align="top"
+                                                  dita-ot:x="3" dita-ot:y="3"
+                                                  headers="unique_3__d29e187__entry__3 ">777 Maple
+                                                  Farm Rd.</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry" colname="col4"
+                                                  css:display="table-cell" css:table-column="3"
+                                                  css:table-row="2" css:vertical-align="top"
+                                                  dita-ot:x="4" dita-ot:y="3"
+                                                  headers="unique_3__d29e187__entry__4 ">A small
+                                                  trail next to a private house.</td>
+                                                  </tr>
+                                                </tbody>
+                                            </table>
+                                        </section>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+</css:root>
