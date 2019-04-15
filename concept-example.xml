@@ -9,11 +9,25 @@
   'dtd1.2/technicalContent/dtd/concept.dtd'>
 
 <concept id="sample_concept" xml:lang="en-US">
-  <title>Title</title>
-  <shortdesc>My Abstract</shortdesc>
+  <title>Introduction to Northampton Concervation Area Signs</title>
+  <shortdesc>A brief description of the official wooden signs for marking Northampton conservation areas.</shortdesc>
   <conbody>
-    <p>First paragraph</p>
-    <p>Second paragraph</p>
-    <p>Third paragraph</p>
+    <p>The Northampton conservation areas has wooden signs to help hikers know what area they are on. The signs are wooden boards
+         with grooved letters usually mounted on two wooden posts. In some cases, the signs are mounted on trail fenses. Commons 
+         features on signs include grooved letters that are wear-resistant and circular indentations for logo plates representing
+         sponsoring organizations.</p>
+    <p>As of January 2019, the signs have had two major versions. The very first version used pressure-treated boards
+       usually painted in red. After about a decade of wear-and-tear, the paint on many of the signs started to peel, and some
+       of the pressure-treated lumber started to rot.</p>
+    <p>To reduce future maintenance costs, the planning office started replacing severely damaged version one signs with version
+         two signs made of locust boards with more durable absorbent finish on them.</p>
+    <p>Version one and version two signs has two choices of hardware for mounting them onto posts. 
+         The simpler and more common choice involves drilling holes directly through the sign face to mount the sign onto supporting ports
+         using stainless nuts and bolts. While simple, this choice is not very aesthetically pleaning and can interfere with the placement
+         of letters and logo plates.</>
+    <p>The more complex choice of hardware uses two metal brackets that are bent at both ends. 
+       The brackets are vertically mounted first to the posts with bolts.
+       The brackets then surround the edges of the sign and then mounted with bolts. Since the bolts are drilled into the edges of the sign
+       rather than the face, it does not obstruct the face. The better appearance comes with the cost of a significantly longer installtion time.</p>
   </conbody>
 </concept>
